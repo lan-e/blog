@@ -7,9 +7,10 @@
       <h2>{{ post.title }}</h2>
     </router-link>
     <p>{{ snippet }}</p>
-    <span v-for="tag in post.tags" :key="tag" class="tag"> #{{ tag }}</span>
+    <span v-for="tag in post.tags" :key="tag" class="tag">#{{ tag }}</span>
   </div>
 </template>
+
 <script>
 import { computed } from "vue";
 
@@ -23,6 +24,7 @@ export default {
   },
 };
 </script>
+
 <style>
 .row {
   display: flex;
@@ -33,21 +35,26 @@ export default {
 .tag {
   color: #f8f8f8;
   background-color: orange;
-  margin: 4px;
-  padding: 10px;
-  border-radius: 4px;
+  margin: 8px;
+  padding: 12px;
+  border-radius: 8px;
 }
 .route {
   text-decoration: none;
+  color: #42b983;
 }
-h2 {
-  color: blue;
+.route:hover {
+  color: #45916e;
 }
 .singlePost {
-  padding: 24px;
+  padding: 32px;
   margin: 100px auto;
   width: 50%;
-  background-color: #d7d7d7;
+  background-color: #f2f2f2;
   border-radius: 16px;
+}
+.singlePost p {
+  margin-bottom: 48px;
+  font-style: italic;
 }
 </style>

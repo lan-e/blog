@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import DetailsView from "../views/DetailsView.vue";
+import Details from "../views/Details.vue";
+import About from "../views/About.vue";
+
 const routes = [
   {
     path: "/",
@@ -10,8 +12,13 @@ const routes = [
   {
     path: "/posts/:id",
     name: "Details",
-    component: DetailsView,
+    component: Details,
     props: true,
+  },
+  {
+    path: "/about",
+    name: "About",
+    component: About,
   },
 ];
 

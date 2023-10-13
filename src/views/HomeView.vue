@@ -1,8 +1,6 @@
 <template>
   <div class="home">
     <div v-if="error">{{ error }}</div>
-    <img src="../assets/logo.png" width="50" />
-    <h1>Home</h1>
     <div v-if="posts.length">
       <PostList :posts="posts" />
     </div>
@@ -26,8 +24,13 @@ export default {
   },
 };
 </script>
+
 <style>
 body {
   margin: 100px auto;
+  user-select: none;
+}
+.home {
+  min-height: 80vh;
 }
 </style>

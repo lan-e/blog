@@ -2,25 +2,27 @@
   "posts": [
     {
       "id": 1,
-      "title": "Breaking news",
-      "body": "lorem",
-      "tags": ["webdev", "css", "coding"]
+      "title": "Welcome to the blog",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum omnis ssaepe harum consectetur vel expedita quaerat ullam suscipit illo sed facere placeat odio tempore reiciendis, doloremque dolorem culpa labore eos!",
+      "tags": ["intro"]
     },
     {
       "id": 2,
-      "title": "Buy a new car",
-      "body": "lorem",
+      "title": "Top 5 css tips",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum omnis saepe harum consectetur vel expedita quaerat ullam suscipit illo sed facere placeat odio tempore reiciendis, doloremque dolorem culpa labore eos!",
       "tags": ["webdev", "css", "coding"]
     },
     {
       "id": 3,
-      "title": "welcome to the blog",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum omnis ssaepe harum consectetur vel expedita quaerat ullam suscipit illo sed facere placeat odio tempore reiciendis, doloremque dolorem culpa labore eos!"
+      "title": "Breaking news",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum omnis saepe harum consectetur vel expedita quaerat ullam suscipit illo sed facere placeat odio tempore reiciendis, doloremque dolorem culpa labore eos!",
+      "tags": ["breaking", "news"]
     },
     {
       "id": 4,
-      "title": "top 5 css tips",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum omnis saepe harum consectetur vel expedita quaerat ullam suscipit illo sed facere placeat odio tempore reiciendis, doloremque dolorem culpa labore eos!"
+      "title": "Buy a new car",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum omnis saepe harum consectetur vel expedita quaerat ullam suscipit illo sed facere placeat odio tempore reiciendis, doloremque dolorem culpa labore eos!",
+      "tags": ["new", "car", "sale"]
     }
   ]
 }
