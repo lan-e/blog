@@ -18,3 +18,5 @@ npm run serve
 npm install json-server
 npx json-server --watch data/db.json
 ```
+
+Or open the app on https://lan-e-blog.vercel.app/ 🌐

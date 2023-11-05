@@ -5,7 +5,10 @@ const getPosts = () => {
   const error = ref(null);
   const load = async () => {
     try {
-      let data = await fetch("http://localhost:3000/posts");
+      // let data = await fetch("http://localhost:3000/posts");
+      let data = await fetch(
+        "https://api.npoint.io/873c251c5d5601d8e949/posts"
+      );
       if (!data.ok) {
         throw Error("no data");
       }

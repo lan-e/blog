@@ -3,7 +3,9 @@
     <h2>{{ post.title }}</h2>
     <p>{{ post.body }}</p>
   </div>
-  <div v-if="error">{{ error }}</div>
+  <div v-else>
+    <p>Loading details...</p>
+  </div>
 </template>
 
 <script>
